@@ -1,25 +1,33 @@
-# Análisis de pedidos y errores en un marketplace de e-commerce
+# 📊 Marketplace Analysis
 
-## Contexto
-Este proyecto analiza un dataset simulado de pedidos en un marketplace. El objetivo es identificar errores frecuentes y generar recomendaciones para reducirlos.
+Este proyecto es un análisis de datos de un marketplace ficticio con pedidos, tiempos de entrega y errores.  
+Forma parte de un ejercicio práctico para portafolio de analista de datos.
 
-## Herramientas
-- Python
-- Pandas
-- Matplotlib
+## 📂 Archivos
+- `marketplace_orders.csv`: dataset con pedidos simulados.
+- `analysis_marketplace.ipynb`: notebook con el análisis paso a paso.
+- `README.md`: documentación del proyecto.
 
-## Resultados
-- % de pedidos con error: 22%
-- Categorías con más errores: Moda y Hogar
-- Principales motivos de error: logística e inventario agotado
-- Tiempo promedio de entrega: 4.2 días
+## 🛠️ Herramientas utilizadas
+- Python 3  
+- Pandas  
+- Matplotlib  
+- Google Colab
 
-## Conclusiones
-El análisis muestra la necesidad de:
-- Mejorar control de inventarios en Moda.
-- Optimizar logística en Hogar.
-- Reducir retrasos en transporte.
+## 🔍 Análisis realizado
+1. Total de pedidos y porcentaje de errores.  
+2. Distribución de errores por categoría.  
+3. Cálculo del tiempo promedio de entrega.  
+4. Motivos más frecuentes de errores.  
 
-## Archivos
-- `marketplace_orders.csv` → dataset simulado
-- `analysis_marketplace.ipynb` → notebook con análisis
+## 📈 Resultados principales
+- Se analizaron 98 pedidos simulados.  
+- El porcentaje de errores fue de **X%**.  
+- La categoría con más errores fue **Moda**.  
+- El tiempo promedio de entrega fue de **Y días**.  
+- Los motivos más frecuentes de error fueron inventario agotado y logística.  
+
+## 🚀 Próximos pasos
+- Integrar más métricas de negocio.  
+- Comparar tasas de error entre meses.  
+- Construir un dashboard en Tableau o Power BI.
